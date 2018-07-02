@@ -17,14 +17,18 @@ public class PostulacionService {
 
     public Postulacion darUnaPostulacion(){
         if(!_listaPostu.isEmpty()){
-            if(_listaPostu.size()<_cont){
+            if(_listaPostu.size()>_cont){
                 return _listaPostu.get(_cont);
             }
         }
         return null;
     }
 
-    public void setCont(int num){
-        _cont=num;
+    public int getSize(){
+        return _listaPostu.size();
+    }
+
+    public void reiniciarContador(){
+        _cont=0;
     }
 }

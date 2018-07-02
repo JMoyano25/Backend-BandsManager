@@ -8,7 +8,7 @@ public class Postulacion {
     private long id;
     private String instrumento;
     private String generoMusical;
-    private String aniosExperiencia;
+    private int aniosExperiencia;
 
     public Postulacion(){
 
@@ -38,11 +38,11 @@ public class Postulacion {
         this.generoMusical = generoMusical;
     }
 
-    public String getAniosExperiencia() {
+    public int getAniosExperiencia() {
         return aniosExperiencia;
     }
 
-    public void setAniosExperiencia(String aniosExperiencia) {
+    public void setAniosExperiencia(int aniosExperiencia) {
         this.aniosExperiencia = aniosExperiencia;
     }
 }

@@ -16,13 +16,15 @@ public class BusquedaService {
 
     public Busqueda darUnaBusqueda(){
         if(!_listaBusq.isEmpty()){
-            if(_listaBusq.size()<_cont){
+            if(_listaBusq.size()>_cont){
                 return _listaBusq.get(_cont);
             }
         }
         return null;
     }
-
+    public int getSize(){
+        return _listaBusq.size();
+    }
     public void reiniciarContador(){
         _cont=0;
     }
