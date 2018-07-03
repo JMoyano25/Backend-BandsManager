@@ -23,6 +23,10 @@ public class PostulacionService {
         }
         return null;
     }
+    
+     public void aumentarCont(){
+        _cont++;
+    }
 
     public int getSize(){
         return _listaPostu.size();
