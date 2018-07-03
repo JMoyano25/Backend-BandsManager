@@ -22,10 +22,10 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;MVCC=TRUE" />
             <property name="javax.persistence.jdbc.user" value="sa" />
             <property name="javax.persistence.jdbc.password" value="" /> -->
-             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql10.freesqldatabase.com:3306/sql10245767" />
-            <property name="javax.persistence.jdbc.user" value="sql10245767" />
-			<property name="javax.persistence.jdbc.password" value="BThe6Ir5jK" />
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://sql143.main-hosting.eu.:3306/u147800277_tp" />
+            <property name="javax.persistence.jdbc.user" value="u147800277_ben" />
+	    <property name="javax.persistence.jdbc.password" value="123456" />
 
  			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect"/>
             <property name="hibernate.show_sql" value="true" />
