@@ -22,8 +22,10 @@ public class NotificacionService implements AlgoritmoMatcheador {
                 if(not != null){
                     _notidao.guardarNotificacion(not);
                 }
+                _busq.aumentarCont();
             }
             _busq.reiniciarContador();
+            _pos.aumentarCont();
         }
         _pos.reiniciarContador();
     }
