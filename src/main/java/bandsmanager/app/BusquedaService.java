@@ -22,6 +22,10 @@ public class BusquedaService {
         }
         return null;
     }
+    
+    public void aumentarCont(){
+        _cont++;
+    }
     public int getSize(){
         return _listaBusq.size();
     }
