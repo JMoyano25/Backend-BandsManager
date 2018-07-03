@@ -6,9 +6,9 @@ import javax.persistence.Id;
 @Entity
 public class Postulacion {
     private long id;
-    private String instrumento;
-    private String generoMusical;
-    private int aniosExperiencia;
+    private String instrument;
+    private String genre;
+    private int experience;
     private long id_musico;
 
     public Postulacion(){
@@ -24,28 +24,28 @@ public class Postulacion {
         this.id = id;
     }
 
-    public String getInstrumento() {
-        return instrumento;
+    public String getInstrument() {
+        return instrument;
     }
 
-    public void setInstrumento(String instrumento) {
-        this.instrumento = instrumento;
+    public void setInstrument(String instrumento) {
+        this.instrument = instrumento;
     }
 
-    public String getGeneroMusical() {
-        return generoMusical;
+    public String getGenre() {
+        return genre;
     }
 
-    public void setGeneroMusical(String generoMusical) {
-        this.generoMusical = generoMusical;
+    public void setGenre(String generoMusical) {
+        this.genre = generoMusical;
     }
 
-    public int getAniosExperiencia() {
-        return aniosExperiencia;
+    public int getExperience() {
+        return experience;
     }
 
-    public void setAniosExperiencia(int aniosExperiencia) {
-        this.aniosExperiencia = aniosExperiencia;
+    public void setExperience(int aniosExperiencia) {
+        this.experience = aniosExperiencia;
     }
 
     public long getId_musico() {

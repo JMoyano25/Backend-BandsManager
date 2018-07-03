@@ -23,8 +23,7 @@ public class PostulacionService {
         }
         return null;
     }
-    
-     public void aumentarCont(){
+    public void aumentarCont(){
         _cont++;
     }
 

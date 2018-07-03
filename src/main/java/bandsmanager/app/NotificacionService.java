@@ -32,11 +32,11 @@ public class NotificacionService implements AlgoritmoMatcheador {
     @Override
     public Notificacion generarNotificacion(Busqueda busq, Postulacion post) {
         Notificacion not = new Notificacion();
-        if(busq.getInstrumento().equals( post.getInstrumento()) && busq.getGeneroMusical().equals(post.getGeneroMusical())){
-            int dif = post.getAniosExperiencia()-busq.getAniosExperiencia();
+        if(busq.getInstrument().equals( post.getInstrument()) && busq.getGenre().equals(post.getGenre())){
+            int dif = post.getExperience()-busq.getExperience();
             if(dif<1 && dif > -1){
                 not.setMostrada(false);
-                not.setDescripcion(String.valueOf(post.getId_musico())+"podria formar banda con "+String.valueOf(busq.getId_banda()));
+                not.setDescripcion(String.valueOf(post.getId_musico())+" podria formar banda con "+String.valueOf(busq.getId_banda()));
                 not.setId_banda(busq.getId_banda());
                 not.setId_musico(post.getId_musico());
                 return not;

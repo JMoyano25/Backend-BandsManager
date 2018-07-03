@@ -18,11 +18,11 @@ public class BusquedaService {
         if(!_listaBusq.isEmpty()){
             if(_listaBusq.size()>_cont){
                 return _listaBusq.get(_cont);
+
             }
         }
         return null;
     }
-    
     public void aumentarCont(){
         _cont++;
     }
