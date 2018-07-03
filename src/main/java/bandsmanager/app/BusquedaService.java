@@ -25,6 +25,7 @@ public class BusquedaService {
     public int getSize(){
         return _listaBusq.size();
     }
+
     public void reiniciarContador(){
         _cont=0;
     }

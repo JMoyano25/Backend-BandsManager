@@ -9,16 +9,18 @@ public class Postulacion {
     private String instrumento;
     private String generoMusical;
     private int aniosExperiencia;
+    private long id_musico;
 
     public Postulacion(){
 
     }
+
     @Id
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -44,5 +46,13 @@ public class Postulacion {
 
     public void setAniosExperiencia(int aniosExperiencia) {
         this.aniosExperiencia = aniosExperiencia;
+    }
+
+    public long getId_musico() {
+        return id_musico;
+    }
+
+    public void setId_musico(long id_musico) {
+        this.id_musico = id_musico;
     }
 }

@@ -11,7 +11,6 @@ public class BusquedaDAO {
     }
 
     public List<Busqueda> traerBusquedas(){
-
         EntityManager entityManager = Main.entityManagerFactory.createEntityManager();
         entityManager = Main.entityManagerFactory.createEntityManager();
         entityManager.getTransaction().begin();
